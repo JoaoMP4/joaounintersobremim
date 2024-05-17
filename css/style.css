@@ -1,0 +1,43 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; /* Define box-sizing para incluir padding e border */
+}
+
+header {
+    background-color: #333; /* Fundo escuro para o header */
+    color: white;
+    padding: 1em 0; /* Espaçamento interno do header */
+}
+
+nav ul {
+    list-style: none; /* Remove bullets da lista */
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 15px; /* Espaçamento entre os itens do menu */
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none; /* Remove sublinhado dos links */
+    font-weight: bold;
+}
+
+img {
+    max-width: 100%;
+    height: auto; /* Garante que a imagem se adapte ao tamanho do container */
+    display: block;
+    margin: 0 auto;
+}
+
+
+.project img {
+    border: 2px solid #333; /* Adiciona uma borda às imagens dos projetos */
+    margin-bottom: 10px;
+}
+
